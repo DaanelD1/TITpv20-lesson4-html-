@@ -1,5 +1,5 @@
 body {
-    background-color:#23538a;
+    background-color:black;
     margin: 0;
     padding: 0;
 }
@@ -7,18 +7,18 @@ body {
 .mainDiv{
     height: 600px;
     width: 600px;
-    background-color: cadetblue;
+    background-color: rgb(0, 153, 255);
     margin: 0 auto;
     font-size: 0;
 }
+
 .mainDiv > div {
     display: inline-block;
     width: 200px;
     height: 200px;
     margin:0 auto;
-    border-radius: 50%;
     box-sizing: border-box;
-    border: 3px solid black;
+    border: 1px solid black;
 }
 
 .red{
@@ -26,12 +26,27 @@ body {
   
 }
 
-.yellow{
+.yellow {
     background-color: yellow;
-    
 }
 
 .green{
     background-color: green;
    
+}
+
+.yellows, .greens, .reds{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.yellows {
+    background-color: yellow;
+}
+.reds {
+    background-color: red;
+}
+.greens {
+    background-color: green;
 }
